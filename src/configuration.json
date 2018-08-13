@@ -1,0 +1,30 @@
+{
+    "database": {
+        "type": "mongodb",
+        "hostname": "localhost",
+        "ip_port": "27017",
+        "name": "entityDb",
+        "collection":{
+            "name": "profile_chest"
+        },
+        "credentials":{
+            "username":"",
+            "password": ""
+        },
+        "ssl": {
+            "state": "disable",
+            "key": "",
+            "cert": ""
+        },
+        "settings": {
+            "connection_retries": "3",
+            "retry_interval": "1000"
+        }
+    },
+    "settings": {
+        "allow_factory_delete": "enable",
+        "allow_factory_modify": "enable",
+        "allow_profile_deletion": "enable",
+        "allow_profile_versions": "disable"
+    }
+}

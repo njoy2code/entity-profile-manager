@@ -1,0 +1,16 @@
+{
+  "name": "entity-profile-manager",
+  "version": "0.0.1",
+  "description": "A generic utility to manage entity profiles",
+  "main": "application.js",
+  "scripts": {
+    "test": "application.js"
+  },
+  "keywords": [
+    "entity",
+    "profile",
+    "manager"
+  ],
+  "author": "njoy2code",
+  "license": "MIT"
+}
